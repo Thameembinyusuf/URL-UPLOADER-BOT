@@ -56,23 +56,30 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.first_name),
         parse_mode="html",
-        reply_markup=InlineKeyboardMarkup(
-        [
-          [
-          InlineKeyboardButton('📍 CHANNEL 📍', url='https://t.me/NT_BOT_CHANNEL'),
-      ],
-      [
-          InlineKeyboardButton('🧑‍💻 DEVELOPER 🧑‍💻', url='https://t.me/LISA_FAN_LK'),
-          InlineKeyboardButton('🤖 SOURCE 🤖', url='https://github.com/LISA-KOREA/URL-UPLOADER-BOT'),
-          ]
-        ]
-      )
+        disable_web_page_preview=True,
+        reply_to_message_id=update.message_id,
+        reply_markup=Translation.START_BUTTONS
     )
+
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.UPGRADE_TEXT,
+        parse_mode="html",
+        reply_to_message_id=update.message_id,
+        disable_web_page_preview=True
+    )
+
+@pyrogram.Client.on_message(pyrogram.filters.command(["info"]))
+async def info(bot, update):
+    if update.from_user.last_name:
+        last_name = update.from_user.last_name
+    else:
+        last_name = "None"
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.INFO_TEXT.format(update.from_user.first_name, last_name, update.from_user.username, update.from_user.id, update.from_user.mention, update.from_user.dc_id, update.from_user.language_code, update.from_user.status),
         parse_mode="html",
         reply_to_message_id=update.message_id,
         disable_web_page_preview=True

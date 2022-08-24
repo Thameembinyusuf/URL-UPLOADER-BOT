@@ -1,13 +1,15 @@
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
 class Translation(object):
 
     START_TEXT = """Hello {},
 
-`I Am Telegram URL Uploader Bot.`
+I Am Telegram URL Uploader Bot.
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
 
-<b>/help for more details...</b>
-"""
+<b>/help for more details...</b>"""
+
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b> 👉 Create own Clone Bot Check Source /about</b>"
     FORMAT_SELECTION = "Set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\n\nYou can use /deletethumbnail to delete the auto-generated thumbnail\n"
@@ -17,7 +19,7 @@ class Translation(object):
     DOWNLOAD_START = "📥 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶"
     UPLOAD_START = "📤 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDe tected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
     #AFTER_SUCCESSFUL_UPLOAD_MSG = " OWNER : Lisa 💕\nFor the List of Telegram Bots"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰\n\n@NT_BOT_CHANNEL"""
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
@@ -50,7 +52,46 @@ class Translation(object):
 
 𒊹︎︎︎ HOW TO DELETING THUMBNAIL
 
-➪ SEND /deletethumbnail TO DELETE YOUR THUMBNAIL."""
+➪ SEND /deletethumbnail TO DELETE YOUR THUMBNAIL.
+
+𒊹︎︎︎ COMMENTS
+
+/help - how to use this bot 
+
+/upgrade - view offers
+
+/info - check your info 
+
+/about - something about me 
+
+/deletethumbnail - delete your thumbnail"""
+
+    INFO_TEXT = """
+🌸 First Name : <b>{}</b>
+
+🌸 Second Name : <b>{}</b>
+
+🌸 Username : <b>@{}</b>
+
+🌸 Id : <code>{}</code>
+
+🌸 Profile : <b>{}</b>
+
+🌸 Dc : <b>{}</b>
+
+🌸 Language : <b>{}</b>
+
+🌸 Status : <b>{}</b>
+"""
+     #START_BUTTONS = InlineKeyboardMarkup(
+       #  [[
+       #  InlineKeyboardButton('HELP', callback_data='help')
+       #  InlineKeyboardButton('ABOUT', callback_data='about')
+       #  ],[
+      #   InlineKeyboardButton('CLOSE', callback_data='close')
+        # ]]
+  #  )
+  # BUTTONS = InlineKeyboardMarkup( soon
 
     AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @NT_BOT_ADMIN"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
@@ -69,8 +110,6 @@ class Translation(object):
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
     EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
-    FREE_USER_LIMIT_Q_SZE = """Cannot Process.
-Free users only 1 request per 2 minutes.
-/upgrade or Try 1800 seconds later."""
+    FREE_USER_LIMIT_Q_SZE = """Free users only 1 request per 2 minutes."""
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     
