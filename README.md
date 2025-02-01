@@ -70,8 +70,6 @@ Check How To Make MONGODB URL or [YouTube](https://youtu.be/VudXkbirhM8?feature=
   
 * `BOT_USERNAME` Add your bot username 
 
-* `
-
 * `UPDATES_CHANNEL` Get it From [@MissRose_bot](https://t.me/MissRose_bot)
 
 * `SESSION_STR` Add your premium user session or skip (4GB)
