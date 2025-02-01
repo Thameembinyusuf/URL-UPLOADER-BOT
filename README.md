@@ -16,29 +16,88 @@
 #
 
 
+# Donation
+<b><details><summary>Click To Open Donation detelis</summary>
+
+We sincerely appreciate your interest in supporting our bot. Your generous contribution helps us maintain and improve the bot, ensuring it continues to provide value to everyone. Whether it’s ₹10, ₹20, ₹50, ₹100, or $2, $5, $10—every bit counts and brings us closer to our goals!
+
+🔘 Payment Methods:
+
+- GPay / Paytm / PhonePe / PayPal / UPI / Bitcoin
+- Credit/Debit Cards: Accepted via PayPal
+- Cryptocurrencies: We also accept Bitcoin and Tron (TRC20) for secure and anonymous donations.
+
+📱 Payment Details:
+
+- UPI ID: `jobinjustin2002-1@okaxis`
+- Tron (TRC20): `THPYzzchV2fssaw5RE4TxL8NxJpfctw46J`
+- Payeer: `P1113797003`
+- Bitcoin: `1DPtf1xkq7aBriCBwDHNydSfzQT2PccFmj`
+- PayPlal: [Click to pay](https://www.paypal.me/lisajobin)
+
+💬 Why Donate?
+
+- Sustainability: Your donations help cover server costs, maintenance, and development of new features.
+- Growth: Contributions allow us to scale up, offering better performance and more robust services.
+- Community Support: We aim to keep this bot free for everyone. Your support makes that possible.
+
+🎉 Special Thanks:
+
+As a token of our gratitude, we’ll mention our top supporters in the community (optional). Your kindness doesn’t go unnoticed!
+
+👨‍💻 Developer Contact:  
+For any questions, suggestions, or assistance, please contact [@JOBIN_JUSTIN](https://t.me/JOBIN_JUSTIN). We're here to help and appreciate your feedback!
+</b>
+</details>
 
 
-### Deploy To Heroku
+## Environment Variable
 
-  ㅤ ㅤ   ㅤ <a href="https://github.com/LISA-KOREA/UPLOADER-BOT-V2"><img alt="heroku" src="https://img.shields.io/badge/-Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku&logoColor=white"/></a> 
+<b><details><summary>Tap On Me For Environment Variable</summary>
 
-### How To Create Your Own Watch This Video Click 👉 [YouTube](https://youtu.be/1AJISrJXwqA)
+* `APP_ID` Get it From mytelegram.org
 
-## Config Vars:
+* `API_HASH` Get it From mytelegram.org
 
-1. `API_ID` : Get it from https://my.telegram.org/apps 
-2. `API_HASH` : Get it from https://my.telegram.org/apps
-3. `AUTH_USERS` : Your telegram I'd use this bot [@UploadLinkToFileBot](https://telegram.dog/UploadLinkToFileBot) and use `/info`
-4. `BANNED_USERS` : Type the user id to be banned
-5. `TG_BOT_TOKEN` : Get it from [@Botfather](https://t.me/botfather)
-6. `UPDATE_CHANNEL` : For Force Subscribe. Paste your Update channel USERNAME `(without @)`
-7. `WEBHOOK` : Setting this to `ANYTHING` will enable webhooks when in env mode
+* `BOT_TOKEN` Get it from [@Botfather](https://t.me/botfather)
 
-## Credits, and Thanks to
+* `DATABASE_URL` Get It From MongoDB Web
+Check How To Make MONGODB URL or [YouTube](https://youtu.be/VudXkbirhM8?feature=shared)
 
-* [@SpEcHlDe](https://t.me/ThankTelegram) for his [AnyDLBot](https://telegram.dog/AnyDLBot)
-* [Dan Tès](https://t.me/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
-* [Yoily](https://t.me/YoilyL) for his [UploaditBot](https://telegram.dog/UploaditBot)
-* [Lisa](https://t.me/LISA_FAN_LK) this is me [Upload Bot V3.2 🚀](https://telegram.dog/UploadLinkToFileBot)
-#### LICENSE
-- GPLv3
+* `OWNER_ID` Your telegram I'd use this bot [@UploaderXNTBot](https://t.me/UploaderXNTBot) and use `/info`
+
+* `LOG_CHANNEL` Create a Private Channel and Send Any Message To That Channel and Forward to [@MissRose_bot](https://t.me/MissRose_bot) to Get Channel Id
+  
+* `BOT_USERNAME` Add your bot username 
+
+* `
+
+* `UPDATES_CHANNEL` Get it From [@MissRose_bot](https://t.me/MissRose_bot)
+
+* `SESSION_STR` Add your premium user session or skip (4GB)
+
+##### Shortlink settings
+
+* `TRUE_OR_FALSE` Set `False` off else `True`
+
+*  `SHORT_API` Add your app shortner api
+
+*  `SHORT_DOMAIN` Add your shortlink domain like shortlink.com
+
+*  `VERIFICATION` Add your verification video link
+</b>
+</details>
+
+#
+
+<b><details><summary>Tap On See My Community Details</summary>
+
+- YouTube Channel : [Telegram Bots 🤖](https://youtube.com/@NTBOT?feature=shared)
+- Telegram Channel : [NT Bots ❤️‍🩹](https://t.me/NT_BOT_CHANNEL)
+- Telegram Group : [NT Bots Support 🎗️](https://t.me/NT_BOTS_SUPPORT)
+- URL Uploader Bot : [Uploader 𝕏 Bot](https://t.me/UploaderXNTBot)
+  
+
+</b>
+</details>
+
