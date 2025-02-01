@@ -78,9 +78,9 @@ Check How To Make MONGODB URL or [YouTube](https://youtu.be/VudXkbirhM8?feature=
 
 * `TRUE_OR_FALSE` Set `False` off else `True`
 
-*  `SHORT_API` Add your app shortner api
+*  `SHORT_API` Add your shortner api
 
-*  `SHORT_DOMAIN` Add your shortlink domain like shortlink.com
+*  `SHORT_DOMAIN` Add your shortlink domain like `shortlink.com`
 
 *  `VERIFICATION` Add your verification video link
 </b>
